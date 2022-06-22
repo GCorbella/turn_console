@@ -5,17 +5,17 @@ def n_cosmetics():
         yield "C" + str(x)
 
 def n_pharmacy():
-    x = 0
+    y = 0
     while True:
-        x += 1
-        yield "P" + str(x)
+        y += 1
+        yield "Ph" + str(x)
 
 
 def n_perfumery():
-    x = 0
+    z = 0
     while True:
-        x += 1
-        yield "Ph" + str(x)
+        z += 1
+        yield "P" + str(x)
 
 
 def decorator(function):
